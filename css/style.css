@@ -251,7 +251,7 @@ nav .nav-right a{
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
-.sec2.right-content .div1:hover{
+.sec2 .right-content .div1:hover{
     background: linear-gradient(to bottom,#000000,#143d37);
     top: 8%;
 }
