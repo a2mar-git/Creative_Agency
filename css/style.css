@@ -1411,6 +1411,7 @@ nav .toggle_btn{
         width: 80%;
         height: 18%;
         margin-top: 60px;
+        cursor: pointer;
     }
 }
 /* End of section no.4 */
