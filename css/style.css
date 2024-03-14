@@ -1428,6 +1428,7 @@ nav .toggle_btn{
     letter-spacing: 3px;
     color: #5CD2B9;
     font-weight: 600;
+    transition: 0.8s ease;
 }
 .sec5 h1{
     color: #fff;
@@ -1435,6 +1436,8 @@ nav .toggle_btn{
     top: 16%;
     left: 13%;
     font-size: 55px;
+    width: 45%;
+    transition: 0.8s ease;
 }
 .sec5 h1 span{
     color: #5CD2B9;    
@@ -1446,39 +1449,88 @@ nav .toggle_btn{
     width: 95px;
     height: 2px;
     background-color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec5 .para{
     position: absolute;
     top: 27%;
     left: 13%;
     color: #c1c1c1dc;
-    width: 48%;
     line-height: 30px;
+    width: 45%;
+    transition: 0.8s ease;
 }
 .sec5 .checked{
     position: absolute;
     top: 37%;
     left: 13%;
     color: #fff;
+    width: 45%;
+    height: 8%;
+    transition: 0.8s ease;
 }
-.sec5 .checked p{
-    display: inline-block;
+.sec5 .checked .line1, .line2{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    transition: 0.8s ease;
+}
+.sec5 .checked .line2{
     margin-top: 20px;
-    margin-left: 20px;
+    width: 100%;
+    height: 50px;
+    transition: 0.8s ease;
 }
-.sec5 .checked i{
+.sec5 .checked .line1 p{
+    position: absolute;
+    left: 8%;
+    top: 12%;
+    margin-left: 10px;
+    line-height: 30px;
+    transition: 0.8s ease;
+}
+.sec5 .checked .line2 p{
+    position: absolute;
+    left: 8%;
+    margin-left: 10px;
+    line-height: 30px;
+    transition: 0.8s ease;
+}
+.sec5 .checked .line1 i{
     font-size: 18px;
     font-weight: bold;
-    color: #5CD2B9;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0d3d38;
+    color: #fff;
+    transition: 0.8s ease;
+}
+.sec5 .checked .line2 i{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0d3d38;
+    color: #fff;
+    transition: 0.8s ease;
 }
 .sec5 .case1{
     position: absolute;
     top: 10.2%;
     left: 61%;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.8s ease;
 }
 .sec5 .case1 img{
     width: 370px;
     height: 400px;
+    transition: 0.8s ease;
 }
 .sec5 .case1 .over {
     position: relative;
@@ -1504,10 +1556,14 @@ nav .toggle_btn{
     position: absolute;
     top: 49%;
     left: 12%;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.8s ease;
 }
 .sec5 .case2 img{
     width: 370px;
     height: 400px;
+    transition: 0.8s ease;
 }
 .sec5 .case2 .over {
     position: relative;
@@ -1533,10 +1589,14 @@ nav .toggle_btn{
     position: absolute;
     top: 49%;
     left: 36.5%;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.8s ease;
 }
 .sec5 .case3 img{
     width: 370px;
     height: 400px;
+    transition: 0.8s ease;
 }
 .sec5 .case3 .over {
     position: relative;
@@ -1562,10 +1622,14 @@ nav .toggle_btn{
     position: absolute;
     top: 49%;
     left: 61%;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.8s ease;
 }
 .sec5 .case4 img{
     width: 370px;
     height: 400px;
+    transition: 0.8s ease;
 }
 /* cases with overlays */
 .sec5 .case1 .over {
@@ -1591,10 +1655,15 @@ nav .toggle_btn{
 .sec5 .case1 .content{
     position: relative;
 }
+.sec5 .case .content {
+    width: fit-content;
+    height: fit-content;
+}
 .sec5 .case1 .content .icons{
     position: absolute;
     color: #fff;
     width: 100%;
+    height: fit-content;
     text-align: center;
     top: 7%;
     opacity: 0;
@@ -1661,6 +1730,7 @@ nav .toggle_btn{
     position: absolute;
     color: #fff;
     width: 100%;
+    height: fit-content;
     text-align: center;
     top: 7%;
     opacity: 0;
@@ -1727,6 +1797,7 @@ nav .toggle_btn{
     position: absolute;
     color: #fff;
     width: 100%;
+    height: fit-content;
     text-align: center;
     top: 7%;
     opacity: 0;
@@ -1794,6 +1865,7 @@ nav .toggle_btn{
     top: 7%;
     color: #fff;
     width: 100%;
+    height: fit-content;
     text-align: center;
     opacity: 0;
     transition: 0.7s;
@@ -1830,6 +1902,419 @@ nav .toggle_btn{
     position: absolute;
     bottom: 40%;
     opacity: 1;
+}
+@media (min-width:480px) and (max-width:768px){
+    .sec5{
+        height: 320vh;
+        transition: 0.8s ease;
+    }
+    .sec5 .title{
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec5 h1{
+        position: absolute;
+        left: 50%;
+        top: 7%;
+        transform: translateX(-50%);
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec5 .line{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec5 .para{
+        position: absolute;
+        left: 50%;
+        top: 12%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked{
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: fit-content;
+        width: 90%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case1{
+        top: 26%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: fit-content;
+        background-color: #082925;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1 .over:hover .icons {
+        opacity: 1;
+        margin-top: 20%;
+        z-index: 555;
+        transition: 0.8s ease;
+    }
+    .sec5  .case1 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case2{
+        top: 44%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2 .over:hover .icons {
+        opacity: 1;
+        margin-top: 20%;
+        z-index: 555;
+        transition: 0.8s ease;
+    }
+    .sec5  .case2 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case3{
+        top: 61%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 300px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3 .over:hover .icons {
+        opacity: 1;
+        margin-top: 20%;
+        z-index: 555;
+        transition: 0.8s ease;
+    }
+    .sec5  .case3 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case4{
+        top: 78%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4 .over:hover .icons {
+        opacity: 1;
+        margin-top: 20%;
+        z-index: 555;
+        transition: 0.8s ease;
+    }
+    .sec5  .case4 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .sec5{
+        height: 200vh;
+        transition: 0.8s ease;
+    }
+    .sec5 .title{
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec5 h1{
+        position: absolute;
+        left: 50%;
+        top: 7%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec5 .line{
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec5 .para{
+        left: 50%;
+        top: 14%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked{
+        top: 23%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: fit-content;
+        width: 90%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case1{
+        top: 35%;
+        left: 2%;
+        width: 45%;
+        height: fit-content;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case1 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case2{
+        top: 35%;
+        left: 52%;
+        width: 45%;
+        height: fit-content;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case2 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case3{
+        top: 65%;
+        left: 2%;
+        width: 45%;
+        height: fit-content;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case3 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case4{
+        top: 65%;
+        left: 52%;
+        width: 45%;
+        height: fit-content;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5  .case4 img{
+        width: 100%;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .sec5{
+        height: 140vh;
+    }
+    .sec5 .title{
+        top: 10%;
+        left: 6.5%;
+        transition: 0.8s ease;
+    }
+    .sec5 h1{
+        top: 15%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .line{
+        top: 24%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .para{
+        top: 27%;
+        width: 50%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked{
+        top: 42%;
+        left: 4%;
+        height: fit-content;
+        width: 70%;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line1 p{
+        left: 5%;
+        font-size: 14px;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line2 p{
+        left: 5%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line2{
+        margin-top: 10px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1{
+        left: 67%;
+        top: 17.4%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2{
+        left: 4%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3{
+        left: 35.5%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4{
+        left: 67%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1 img{
+        width: 320px;
+        height: 380px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2 img{
+        width: 320px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3 img{
+        width: 320px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4 img{
+        width: 320px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:1201px) and (max-width:1500px){
+    .sec5{
+        height: 140vh;
+    }
+    .sec5 .title{
+        top: 10%;
+        left: 6.5%;
+        transition: 0.8s ease;
+    }
+    .sec5 h1{
+        top: 15%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .line{
+        top: 24%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .para{
+        top: 27%;
+        width: 50%;
+        left: 6%;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked{
+        top: 42%;
+        left: 4%;
+        height: fit-content;
+        width: 70%;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line1 p{
+        left: 5%;
+        font-size: 14px;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line2 p{
+        left: 5%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec5 .checked .line2{
+        margin-top: 10px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1{
+        left: 67%;
+        top: 12.4%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2{
+        left: 4%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3{
+        left: 35.5%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4{
+        left: 67%;
+        top: 54.8%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1 img{
+        width: 350px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2 img{
+        width: 350px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3 img{
+        width: 350px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4 img{
+        width: 350px;
+        height: 350px;
+        transition: 0.8s ease;
+    }
+    .sec5 .case1 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case2 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case3 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
+    .sec5 .case4 .over:hover .icons {
+        margin-top: 30%;
+        transition: 0.8s ease;
+    }
 }
 /* End of case no.4 */
 /* End of section no.5 */
