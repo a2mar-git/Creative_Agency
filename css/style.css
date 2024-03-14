@@ -1126,6 +1126,7 @@ nav .toggle_btn{
         left: 50%;
         transform: translateX(-50%);
         transition: 0.8s ease;
+        color: #fff;
     }
     .sec3 .b1{
         top: 60%;
