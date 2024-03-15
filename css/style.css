@@ -2352,6 +2352,38 @@ nav .toggle_btn{
     width: 170px;
     height: 80px;
 }
+@media (min-width:480px) and (max-width:768px){
+    .sec6{
+        height: 100vh;
+        background-position: left;
+    }
+    .sec6 .overlay{
+        height: 100vh;
+    }
+    .sec6 .sec6-content{
+        flex-direction: column;
+    }
+    .sec6 .sec6-content img{
+        width: 250px;
+        height: 100px;
+    }
+}
+@media (min-width:769px) and (max-width:1200px){
+    .sec6{
+        height: 100vh;
+        background-position: left;
+    }
+    .sec6 .overlay{
+        height: 100vh;
+    }
+    .sec6 .sec6-content{
+        flex-direction: column;
+    }
+    .sec6 .sec6-content img{
+        width: 250px;
+        height: 100px;
+    }
+}
 /* End of section no.6 */
 .sec7{
     width: 100%;
