@@ -3530,6 +3530,8 @@ textarea{
     left: 50%;
     transform: translateX(-50%);
     top: 35%;
+    width: 100%;
+    text-align: center;
 }
 .sec13 ul li {
     display: inline-block;
@@ -3550,12 +3552,13 @@ textarea{
 }
 .sec13 p{
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: #ffffffdf;
+    color: #dfdfdfdb;
     line-height: 30px;
+    width: 100%;
 }
 .sec13 .icons{
     position: absolute;
@@ -3563,23 +3566,11 @@ textarea{
     top: 65%;
     transform: translateX(-50%);
 }
-.sec13 .icons .i2, .i3{
+.sec13 .icons i{
     font-size: 19px;
     margin: 0 20px;
     transition: 0.5s;
     color: #5CD2B9;
-}
-.sec13 .icons .i1{
-    margin-right: 20px;
-    transition: 0.5s;
-    color: #5CD2B9;
-    font-size: 19px;
-}
-.sec13 .icons .i4{
-    margin-left: 20px;
-    transition: 0.5s;
-    color: #5CD2B9;
-    font-size: 19px;
 }
 .sec13 .copyright{
     position: absolute;
@@ -3587,4 +3578,24 @@ textarea{
     left: 50%;
     transform: translateX(-50%);
     color: #ffffffa9;
+}
+@media (min-width:480px) and (max-width:768px){
+    .sec13 .title p{
+        margin-top: 30px;
+    }
+    .sec13 .ul{
+        top: 37%;
+    }
+    .sec13 ul li {
+        margin: 0px 6px;
+    }
+    .sec13 p{
+        top: 48%;
+    }
+    .sec13 .icons{
+        top: 67%;
+    }
+    .sec13 .copyright{
+        top: 80%;
+    }
 }
