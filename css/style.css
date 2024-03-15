@@ -1376,7 +1376,6 @@ nav .toggle_btn{
     align-items: center;
     width: 20%;
     height: 80%;
-    background-color: #3d48473e;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -1413,6 +1412,7 @@ nav .toggle_btn{
         height: 18%;
         margin-top: 60px;
         cursor: pointer;
+        background-color: #3d48473e;
     }
 }
 /* End of section no.4 */
