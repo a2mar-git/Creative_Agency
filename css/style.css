@@ -3033,6 +3033,7 @@ nav .toggle_btn{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    transition: 0.8s ease;
 }
 .sec10 .overlay{
     position: absolute;
@@ -3041,6 +3042,7 @@ nav .toggle_btn{
     height: 75vh;
     background-color: #181818;
     opacity: 0.5;
+    transition: 0.8s ease;
 }
 .sec10 .sec10-content .title{
     position: absolute;
@@ -3051,6 +3053,7 @@ nav .toggle_btn{
     font-weight: bold;
     letter-spacing: 4px;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec10 .sec10-content h2{
     position: absolute;
@@ -3061,6 +3064,8 @@ nav .toggle_btn{
     font-weight: 900;
     font-weight: bold;
     letter-spacing: 2px;
+    width: 40%;
+    transition: 0.8s ease;
 }
 .sec10 .sec10-content h2 span{
     color: #5CD2B9;
@@ -3072,6 +3077,7 @@ nav .toggle_btn{
     background-color: #5CD2B9;
     width: 100px;
     height: 3px;
+    transition: 0.8s ease;
 }
 .sec10 .sec10-content .para{
     position: absolute;
@@ -3079,6 +3085,7 @@ nav .toggle_btn{
     left: 14%;
     color: #e9e9e994;
     line-height: 30px;
+    transition: 0.8s ease;
 }
 .sec10 .sec10-content a{
     position: absolute;
@@ -3106,17 +3113,20 @@ nav .toggle_btn{
     background-color: #191919cc;
     position: absolute;
     top: 30%;
-    left: 55%;
+    right: 10%;
     transition: 0.5s ease;
     cursor: pointer;
+    overflow: hidden;
+    transition: 0.8s ease;
 }
 .sec10 .quote:hover{
-    transform: scale(1.1);
+    scale: 1.05;
 }
 .sec10 .quote .para{
     padding-left: 25px;
     padding-top: 25px;
     color: #e9e9e994;
+    transition: 0.8s ease;
 }
 .sec10 .quote img{
     width: 100px;
@@ -3133,6 +3143,7 @@ nav .toggle_btn{
 }
 .sec10 .quote .text{
     position: relative;
+    transition: 0.8s ease;
 }
 .sec10 .quote h3{
     position: absolute;
@@ -3142,6 +3153,7 @@ nav .toggle_btn{
     font-size: 19px;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: 0.8s ease;
 }
 .sec10 .quote .profession{
     position: absolute;
@@ -3149,13 +3161,262 @@ nav .toggle_btn{
     left: 32%;
     color: #5CD2B9;
     font-size: 14px;
+    transition: 0.8s ease;
 }
 .sec10 .quote i{
     position: absolute;
-    bottom: 10%;
+    bottom: 17%;
     right: 8%;
     font-size: 35px;
     color: #fff;
+    transition: 0.8s ease;
+}
+@media (min-width:480px) and (max-width:768px){
+    .sec10{
+        height: 120vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .overlay{
+        height: 120vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .title{
+        top: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content h2{
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .line{
+        top: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }   
+    .sec10 .sec10-content .para{
+        top: 27%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 80%;
+        color: #c7c6c6;
+        transition: 0.8s ease;
+    } 
+    .sec10 .sec10-content a{
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sec10 .sec10-content a button{
+        font-size: 14px;
+    }
+    .sec10 .quote img{
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote{
+        top: 64%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 450px;
+        height: 220px;
+    }
+    .sec10 .quote:hover{
+        scale: 1;
+    }
+    .sec10 .quote .para{
+        font-size: 17px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote h3{
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote .profession{
+        top: 87%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote i{
+        bottom: 12%;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .sec10{
+        height: 120vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .overlay{
+        height: 120vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .title{
+        top: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content h2{
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .line{
+        top: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }   
+    .sec10 .sec10-content .para{
+        top: 27%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 80%;
+        color: #c7c6c6;
+        transition: 0.8s ease;
+    } 
+    .sec10 .sec10-content a{
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sec10 .sec10-content a button{
+        font-size: 14px;
+    }
+    .sec10 .quote img{
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote{
+        top: 64%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        width: 500px;
+        height: 220px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote:hover{
+        scale: 1;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote .para{
+        font-size: 17px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote h3{
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote .profession{
+        top: 87%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote i{
+        bottom: 12%;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:1025px) and (max-width:1375px){
+    .sec10{
+        height: 75vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .overlay{
+        height: 75vh;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .title{
+        left: 3%;
+        top: 20%;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content h2{
+        left: 3%;
+        font-size: 45px;
+        transition: 0.8s ease;
+    }
+    .sec10 .sec10-content .line{
+        left: 3%;
+        transition: 0.8s ease;
+    }   
+    .sec10 .sec10-content .para{
+        left: 3%;
+        color: #d1d1d1;
+        width: 51%;
+        transition: 0.8s ease;
+    } 
+    .sec10 .sec10-content a{
+        left: 3%;
+    }
+    .sec10 .quote{
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        width: 90%;
+        width: 430px;
+        height: 220px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote img{
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+    }
+    .sec10 .quote:hover{
+        scale: 1.05;
+    }
+    .sec10 .quote .para{
+        font-size: 17px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote h3{
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 22px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote .profession{
+        top: 87%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        transition: 0.8s ease;
+    }
+    .sec10 .quote i{
+        bottom: 12%;
+        transition: 0.8s ease;
+    }
 }
 /*End of section no.10  */
 .sec11{
