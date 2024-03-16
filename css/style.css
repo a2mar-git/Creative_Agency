@@ -3302,6 +3302,7 @@ nav .toggle_btn{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transition: 0.8s ease;
 }
 .sec12 .overlay{
     position: absolute;
@@ -3310,18 +3311,21 @@ nav .toggle_btn{
     height: 115vh;
     background-color: #000000;
     opacity: 0.8;
+    transition: 0.8s ease;
 }
 .sec12 .left-content{
     position: absolute;
     top: 12%;
     left: 10%;
     color: #5CD2B9;
+    width: 35%;
+    transition: 0.8s ease;
 }
 .sec12 .left-content .form{
     border: 1px solid #5CD2B9;
-    width: 550px;
     height: 660px;
     padding: 40px;
+    transition: 0.8s ease;
 }
 .sec12 .left-content input{
     width: 100%;
@@ -3338,7 +3342,7 @@ nav .toggle_btn{
     padding-top:20px;
     overflow: hidden;
     color: #fff;
-    width: 460px;
+    width: 100%;
     height: 212px;
     padding-left: 20px;
     font-size: 20px;
@@ -3387,13 +3391,15 @@ textarea{
     position: absolute;
     top: 17%;
     left: 52%;
-    width: 690px;
+    width: 26%;
+    transition: 0.8s ease;
 }
 .sec12 .sec12-content .title{
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 5px;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec12 .sec12-content h1{
     margin-top: 20px;
@@ -3402,6 +3408,7 @@ textarea{
     letter-spacing: 4px;
     font-weight: bold;
     color: #fff;
+    transition: 0.8s ease;
 }
 .sec12 .sec12-content h1 span{
     color: #5CD2B9;
@@ -3418,25 +3425,33 @@ textarea{
     position: absolute;
     top: 35%;
     left: 52%;
-    width: 600px;
+    width: 40%;
     line-height: 30px;
     letter-spacing: 1px;
     word-spacing: 2px;
+    transition: 0.8s ease;
+}
+.sec12 .cont{
+    width: 25%;
+    transition: 0.8s ease;
 }
 .sec12 .b1{
     position: absolute;
     top: 52%;
     left: 52%;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec12 .cont i{
     font-size: 40px;
+    transition: 0.8s ease;
 }
 .sec12 .b1 h2{
     color: #fff;
     width: 100%;
     margin-top: 10px;
     margin-left: 20px;
+    transition: 0.8s ease;
 }
 .sec12 .b1 p{
     color: #ffffffa9;
@@ -3444,6 +3459,7 @@ textarea{
     margin-left: 50px;
     margin-top: 2%;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 /*  */
 .sec12 .b2{
@@ -3451,12 +3467,14 @@ textarea{
     top: 65%;
     left: 52%;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec12 .b2 h2{
     color: #fff;
     width: 100%;
     margin-top: 10px;
     margin-left: 20px;
+    transition: 0.8s ease;
 }
 .sec12 .b2 p{
     margin-top: 2%;
@@ -3464,6 +3482,7 @@ textarea{
     width: 100%;
     margin-left: 58px;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 /*  */
 .sec12 .b3{
@@ -3471,12 +3490,14 @@ textarea{
     top: 78%;
     left: 52%;
     color: #5CD2B9;
+    transition: 0.8s ease;
 }
 .sec12 .b3 h2{
     color: #fff;
     width: 100%;
     margin-top: 10px;
     margin-left: 20px;
+    transition: 0.8s ease;
 }
 .sec12 .b3 p{
     color: #ffffffa9;
@@ -3484,6 +3505,333 @@ textarea{
     margin-top: 2%;
     margin-left: 58px;
     color: #5CD2B9;
+    transition: 0.8s ease;
+}
+@media (min-width:480px) and (max-width:768px){
+    .sec12{
+        height: 200vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .overlay{
+        height: 200vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .sec12-content {
+        top: 5%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        transition: 0.8s ease;
+        }
+    .sec12 .sec12-content p{
+        margin: auto;
+        transition: 0.8s ease;
+    }
+    .sec12 .paragraph{
+        top: 16%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 {
+        top: 26%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 {
+        top: 33%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 {
+        top: 40%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .left-content{
+        top: 50%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .sec12{
+        height: 200vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .overlay{
+        height: 200vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .sec12-content {
+        top: 5%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        transition: 0.8s ease;
+        }
+    .sec12 .sec12-content p{
+        margin: auto;
+        transition: 0.8s ease;
+    }
+    .sec12 .paragraph{
+        top: 16%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 {
+        top: 26%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 {
+        top: 33%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 {
+        top: 40%;
+        left: 10%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .left-content{
+        top: 50%;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:1024px) and (max-width:1200px){
+    .sec12{
+        height: 115vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .overlay{
+        height: 115vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .sec12-content {
+        top: 12%;
+        width: 100%;
+        left: 55%;
+        transition: 0.8s ease;
+        }
+    .sec12 .sec12-content p{
+        left: 55%;
+        transition: 0.8s ease;
+    }
+    .sec12 .paragraph{
+        top: 30%;
+        width: 45%;
+        left: 55%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 {
+        top: 47%;
+        left: 55%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 {
+        top: 62%;
+        left: 55%;
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 {
+        top: 77%;
+        left: 55%;
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .left-content{
+        top: 10%;
+        width: 40%;
+        left: 5%;
+        transition: 0.8s ease;
+    }
+}
+@media (min-width:1200px) and (max-width:1475px){
+    .sec12{
+        height: 115vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .overlay{
+        height: 115vh;
+        transition: 0.8s ease;
+    }
+    .sec12 .sec12-content {
+        top: 12%;
+        width: 100%;
+        left: 50%;
+        transition: 0.8s ease;
+    }
+    .sec12 .sec12-content p{
+        left: 50%;
+        transition: 0.8s ease;
+    }
+    .sec12 .paragraph{
+        top: 30%;
+        width: 45%;
+        left: 50%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 {
+        top: 47%;
+        left: 50%;
+        width: 100%;
+        font-size: 15px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b1 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 {
+        top: 62%;
+        left: 50%;
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b2 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 {
+        top: 77%;
+        left: 50%;
+        width: 100%;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 h2{
+        margin-left: 25px;
+        transition: 0.8s ease;
+    }
+    .sec12 .b3 i{
+        font-size: 30px;
+        margin-top: 13px;
+        transition: 0.8s ease;
+    }
+    .sec12 .left-content{
+        top: 10%;
+        width: 40%;
+        left: 5%;
+        transition: 0.8s ease;
+    }
 }
 /* End of section no.12 */
 .sec13{
