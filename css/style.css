@@ -4258,6 +4258,7 @@ nav .toggle_btn{
 .sec12 .left-content textarea:focus{
     outline: 1px solid #5CD2B9;
     background-color: #fff
+    color: #000000;
 }
 .sec12 .left-content input, textarea{
     display: block;
