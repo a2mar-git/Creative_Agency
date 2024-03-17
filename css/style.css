@@ -272,16 +272,75 @@ nav .toggle_btn{
 .sec1 .studio .content a{
     color: #ffffff;
 }
-.sec1 .studio .content .icon i{
-    font-size: 25px;
+.sec1 .studio .content .icon{
     background-color: #5CD2B9;
-    padding: 19px 23px;
-    border-radius: 30%;
-    transition: 0.9s;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
 }
-.sec1 .studio .content .icon:hover i{
-    transform: rotate(360deg);
+.sec1 .studio .content .icon::before{
+    content: '';
+    position: absolute;
+    border: 15px solid #5cd2b94f;
+    border-radius: 50%;
+    top: -20px;
+    bottom: -20px;
+    right: -20px;
+    left: -20px;
+    animation: bloom1 1.5s linear infinite;
+    opacity: 0;
+    z-index: 1;
 }
+.sec1 .studio .content .icon::after{
+    content: '';
+    position: absolute;
+    border: 15px solid #5cd2b94f;
+    border-radius: 50%;
+    top: -20px;
+    bottom: -20px;
+    right: -20px;
+    left: -20px;
+    animation: bloom2 1.5s linear infinite;
+    opacity: 0;
+    z-index: 1;
+    animation-delay: 2s;
+}
+@keyframes bloom1
+{
+    0%
+    {
+        transform: scale(0.5);
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+    }
+}
+@keyframes bloom2
+{
+    0%
+    {
+        transform: scale(0.5);
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+    }
+}
+/*End of Animation */
 .sec1 .studio .content-studio{
     margin-left: 40px;
 }
