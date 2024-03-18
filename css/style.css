@@ -272,6 +272,7 @@ nav .toggle_btn{
 .sec1 .studio .content a{
     color: #ffffff;
 }
+/*Start of Animation */
 .sec1 .studio .content .icon{
     background-color: #5CD2B9;
     border-radius: 50%;
@@ -282,6 +283,7 @@ nav .toggle_btn{
     height: 60px;
     position: relative;
     cursor: pointer;
+    font-size: 25px;
 }
 .sec1 .studio .content .icon::before{
     content: '';
@@ -1164,7 +1166,7 @@ nav .toggle_btn{
     .sec3 img{
         left: 50%;
         transform: translate(-50%);
-        opacity: 0.3;
+        opacity: 0.2;
         transition: 0.8s ease;
     }
     .sec3 .sec3-content{
@@ -1436,7 +1438,6 @@ nav .toggle_btn{
     width: 20%;
     height: 80%;
     border-radius: 20px;
-    cursor: pointer;
 }
 .sec4 .sec4-content img{
     width: 80px;
@@ -1460,6 +1461,7 @@ nav .toggle_btn{
     }
     .sec4 .overlay{
         height: 170vh;
+        z-index: -555;
     }
     .sec4 .sec4-content {
         flex-direction: column;
@@ -2701,7 +2703,7 @@ nav .toggle_btn{
     }
     .sec7 .video-1{
         top: 55%;
-        left: 10%;
+        left: 12%;
         width: 35%;
         transition: 0.8s ease;
     }
@@ -2850,6 +2852,15 @@ nav .toggle_btn{
 .sec8 .div1 .icons i{
     margin-left: 20px;
     color: #5CD2B9;
+    transition: 0.5s ease;
+}
+.div1 .icons i:hover{
+    scale: 1.4;
+    color: #fff;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
 }
 /*End of div1*/
 .sec8 .div2{
@@ -2905,6 +2916,15 @@ nav .toggle_btn{
 .sec8 .div2 .icons i{
     margin-left: 20px;
     color: #5CD2B9;
+    transition: 0.5s ease;
+}
+.sec8 .div2 .icons i:hover{
+    scale: 1.4;
+    color: #fff;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
 }
 /* End of div2 */
 .sec8 .div3{
@@ -2960,6 +2980,15 @@ nav .toggle_btn{
 .sec8 .div3 .icons i{
     margin-left: 20px;
     color: #5CD2B9;
+    transition: 0.5s ease;
+}
+.sec8 .div3 .icons i:hover{
+    scale: 1.4;
+    color: #fff;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
 }
 /* End of div3 */
 .sec8 .div4{
@@ -3015,6 +3044,15 @@ nav .toggle_btn{
 .sec8 .div4 .icons i{
     margin-left: 20px;
     color: #5CD2B9;
+    transition: 0.5s ease;
+}
+.sec8 .div4 .icons i:hover{
+    scale: 1.4;
+    color: #fff;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
 }
 @media (min-width:480px) and (max-width:780px){
     .sec8{
@@ -3813,7 +3851,7 @@ nav .toggle_btn{
         height: 75vh;
         transition: 0.8s ease;
     }
-   .sec10 .sec10-content .title{
+    .sec10 .sec10-content .title{
         left: 3%;
         top: 18%;
         transition: 0.8s ease;
@@ -4829,8 +4867,16 @@ textarea{
 .sec13 .icons i{
     font-size: 19px;
     margin: 0 20px;
-    transition: 0.5s;
+    transition: all 0.5s;
     color: #5CD2B9;
+}
+.sec13 .icons i:hover{
+    scale: 1.5;
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    color: #fff;
 }
 .sec13 .copyright{
     position: absolute;
