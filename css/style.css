@@ -3813,21 +3813,24 @@ nav .toggle_btn{
         height: 75vh;
         transition: 0.8s ease;
     }
-    .sec10 .sec10-content .title{
+   .sec10 .sec10-content .title{
         left: 3%;
-        top: 20%;
+        top: 18%;
         transition: 0.8s ease;
     }
     .sec10 .sec10-content h2{
+        top: 27%;
         left: 3%;
         font-size: 45px;
         transition: 0.8s ease;
     }
     .sec10 .sec10-content .line{
-        left: 3%;
+        top: 42%;
+        left: 3.5%;
         transition: 0.8s ease;
     }   
     .sec10 .sec10-content .para{
+        top: 47%;
         left: 3%;
         color: #d1d1d1;
         width: 51%;
