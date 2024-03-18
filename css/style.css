@@ -2410,12 +2410,12 @@ nav .toggle_btn{
 .sec6 .sec6-content img{
     width: 170px;
     height: 80px;
-    opacity: 0.5;
+    filter: grayscale(100%);
     transition: 0.5s ease;
     cursor: pointer;
 }
 .sec6 .sec6-content img:hover{
-    opacity: 1;
+    filter: grayscale(0%);
 }
 @media (min-width:480px) and (max-width:768px){
     .sec6{
