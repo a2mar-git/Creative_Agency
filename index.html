@@ -538,23 +538,56 @@
         </div>
     </section>
     <!-- End of section no.11 -->
-    <section class="sec12">
+        <section class="sec12">
         <div class="overlay"></div>
         <div class="left-content">
             <div class="form">
-                <form method="post">
+                <form method="post" id="form">
                     <div class="form-content">
                         <label>First Name</label>
-                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Name" id="name" required>
                         <br>
                         <br>
                         <label>Your Email</label>
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" placeholder="Email" id="email" required>
                         <br>
                         <br>
                         <label>Your Message</label>
-                        <textarea name="" id="" placeholder="Message here"></textarea>
-                        <button>SEND MESSAGE</button>
+                        <textarea id="textarea" placeholder="Message here"></textarea>
+                        <button type="submit" id="btnForm">SEND MESSAGE</button>
+                        <script>
+                            const name = document.getElementById('name');
+                            const email = document.getElementById('email');
+                            const textarea = document.getElementById('textarea');
+                            const form = document.getElementById('form');
+                            document.getElementById('form').onsubmit = function(e){
+                                let userNameValid = false;
+                                let userEmailValid = false;
+                                let textAreaValid = false;
+                                if(name.value !=="" && name.value.length <= 10 ){
+                                    userNameValid = true;
+                                }
+                                if(email.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+                                    userEmailValid = true;
+                                }
+                                if(textarea.value !=="" && textarea.value.length >= 2 ){
+                                    textAreaValid = true;
+                                }
+                                if(userEmailValid===false || userNameValid===false || textAreaValid===false){
+                                    e.preventDefault();
+                                }
+                                if(userEmailValid===true| userNameValid===true| textAreaValid===true){
+                                    form.addEventListener('submit', reg());
+                                }
+                            }
+                            function reg(){
+                                Swal.fire({
+                            title: "Good job!",
+                            text: "You clicked the button!",
+                            icon: "success"
+                            });
+                            }
+                        </script>
                         </div>
                 </form>
             </div>
@@ -597,7 +630,7 @@
             </p>
         </div>
     </section>
-    <section class="sec13">
+    <!-- <section class="sec13"> -->
         <div class="overlay"></div>
         <div class="title">
             <h2>Criativo</h2>
@@ -638,5 +671,7 @@
             : 'fa-solid fa-bars'
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
+
