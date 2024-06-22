@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 30px 10%;
-    height: 100px;
+    height: 80px;
     background-color: #141313;
 }
 nav .nav-left{
